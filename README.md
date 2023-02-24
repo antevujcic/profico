@@ -38,7 +38,8 @@ It's great for task purposes, but it does have some logical issues
     - I don't think this is possible due to the security risk of phishing
     - I've added buttons that simply hide that banner with some nice animation
     - Also design for this banner on Mobile is not provided? I hid it as it's shown on the design, I don't know if this is a mistake
-- Are there "hover" effects in this Figma design? I didn't find any (maybe it's my fault), however, I've added some effects and animations just to breathe some life into an app
+- I didn't find any "hover" effects in this Figma design (maybe it's my fault), however, I've added some effects and animations just to breathe some life into an app
+- In the requirements section, on of the requirements is that search bar should be able to filter by name, since name can be a few things regarding article (title, name of the publisher, name of the author, etc.), I've decided to filter by title 
 - Overall it's a nice design for practicing purposes, but adding more details would make it more challenging (and better)
 
 ### Things I would point out
