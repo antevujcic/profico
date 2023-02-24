@@ -1,0 +1,85 @@
+.categories-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 25px;
+
+    div {
+        width: 63px;
+        height: 63px;
+        background: transparent;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &.active {
+            background-color: #fff;
+            box-shadow: 0px 1px 2px -1px #C8CAD1;
+
+            svg {
+                opacity: 1;
+
+                path {
+                    fill: #BB1E1E;
+                }
+            }
+
+            p {
+                color: #BB1E1E;
+            }
+        }
+        &.bookmark {
+
+            svg {
+                width: 25px;
+                height: 25px;
+
+                path {
+                    fill: rgb(201, 145, 2);
+                }
+
+                @media screen and (max-width: 800px){
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+        svg {
+            width: 20px;
+            height: 20px;
+            margin-bottom: 4px;
+            opacity: 0.5;
+            
+            @media screen and (max-width: 800px){
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        p {
+            font-size: 10px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.1px;
+            color: #1D1D1B;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            font-weight: 600;
+
+            @media screen and (max-width: 800px){
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+        &:hover {
+            background-color: #fff;
+            box-shadow: 0px 1px 2px -1px #C8CAD1;
+        }
+    }
+}
